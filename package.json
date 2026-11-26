@@ -1,13 +1,16 @@
+
 {
   "name": "liveclip-ai",
-  "version": "1.0.0",
-  "description": "Servidor para procesar transmisiones y generar clips",
+  "version": "1.1.0",
+  "description": "Plataforma inteligente para crear clips de videos y transmisiones en vivo",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.21.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "multer": "^2.0.2",
+    "fluent-ffmpeg": "^2.1.3"
   }
 }
